@@ -1,0 +1,7 @@
+function functokenizer(str) { 
+    return str.split(" ");  
+} 
+
+# Function to split the data column into array of string split by space
+# Usage 
+# SELECT udf.functokenizer(c.name) as splitted_name,c.name FROM c
