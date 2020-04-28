@@ -1,5 +1,5 @@
 # function to convert integer to string 
 
-function convertToInt(strNum) {
-    return String(strNum);
+function convertToString(intNum) {
+    return String(intNum);
 };
