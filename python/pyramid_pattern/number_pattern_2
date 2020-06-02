@@ -6,6 +6,7 @@ Problem statement
 1 2 3 4 
 '''
 
+##########Solution One###############
 
 def pattern_func(args):
     if args <= 0 :
@@ -20,3 +21,13 @@ def pattern_func(args):
             print("\r")
         
 pattern_func(4)
+
+##############solution two############## 
+
+def pattern_func(args):
+  for i in range(1,args):
+     for j in range(1, i+1):
+          print(j , end = " " )
+     print("\r")
+ 
+pattern_func(5)
